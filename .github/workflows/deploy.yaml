@@ -35,4 +35,4 @@ jobs:
           sed -i "s|image: chuongle1/static-site:.*|image: chuongle1/static-site:${{ env.IMAGE_TAG }}|" k8s-manifests/deployment.yaml
           git add k8s-manifests/deployment.yaml
           git commit -m "Update image to version ${{ env.IMAGE_TAG }}"
-          git push origin main
+          git push origin master
