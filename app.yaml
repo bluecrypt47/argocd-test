@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/bluecrypt47/argocd-test.git  # Thay bằng repo của bạn
-    targetRevision: main
-    path: k8s-manifests  # Thư mục chứa file manifests
+    repoURL: https://github.com/bluecrypt47/argocd-test.git
+    targetRevision: master
+    path: k8s-manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: static-site

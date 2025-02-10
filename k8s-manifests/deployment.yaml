@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: chuongle1/test-argocd:v1
+        image: chuongle1/test-argocd:v2
         ports:
         - containerPort: 80
 
