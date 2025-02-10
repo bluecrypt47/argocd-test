@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: static-site
-          image: chuongle1/static-site:latest  # ArgoCD sẽ tự cập nhật khi có thay đổi
+          image: chuongle1/test-argocd:latest  # ArgoCD sẽ tự cập nhật khi có thay đổi
           ports:
             - containerPort: 80
