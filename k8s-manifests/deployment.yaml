@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: static-site
-          image: chuongle1/test-argocd:20250210045200
+          image: chuongle1/test-argocd:20250210073805
           ports:
             - containerPort: 80
